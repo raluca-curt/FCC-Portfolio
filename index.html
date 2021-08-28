@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-md bg-primary navbar-dark" id="navbar">
         <div class="container">
-            <a href="#" class="navbar-brand">RC</a>
+            <a href="#welcome-section" class="navbar-brand">RC</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -20,25 +20,73 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
                 <ul class="navbar-nav mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#welcome-section" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item ps-md-5">
-                        <a href="#" class="nav-link">Projects</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item ps-md-5">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    
+    <div class="container-fluid d-flex p-0" id="welcome-section">
+        <h1 class="display-1 text-center">HELLO.</h1>
+        <h2 class="display-3 text-center">I'm Raluca,</h2>
+        <p class=" display-5 text-center">a front-end developer.</p>
+    </div>
 
+    <div class="container-fluid mt-5" id="projects">
+        <h3 class="display-3 text-center">Projects</h3>
 
+        <div class="container d-flex align-items-center flex-column flex-lg-row justify-content-lg-around gap-lg-3">
+            <div class="card text-center my-5 project-tile">
+                <img src="https://i.postimg.cc/gjmkfbgC/JS-Documentation-ss.png" alt="project image" class="card-img-top">
+                <div class="card-body d-flex flex-column justify-content-around">
+                    <h4 class="card-title display-6">JS Documentation</h4>
+                    <p class="card-text">
+                        <span class="badge bg-secondary">HTML</span>
+                        <span class="badge bg-secondary">CSS</span>
+                    </p>
+                    <a href="https://codepen.io/c-raluca/pen/gORbBEz" target="_blank" class="btn btn-primary btn-lg mx-5 mt-3">See Code</a>
+                </div>
+            </div>
+            <div class="card text-center my-5 project-tile">
+                <img src="https://i.postimg.cc/8Pw9dgM7/Survey-Form-ss.png" alt="project image" class="card-img-top">
+                <div class="card-body d-flex flex-column justify-content-around">
+                    <h4 class="card-title display-6">Survey Form</h4>
+                    <p class="card-text">
+                        <span class="badge bg-secondary">HTML</span>
+                        <span class="badge bg-secondary">CSS</span></p>
+                    <a href="https://codepen.io/c-raluca/pen/QWvPQyG" target="_blank" class="btn btn-primary btn-lg mx-5 mt-3">See Code</a>
+                </div>
+            </div>
+            <div class="card text-center my-5 project-tile">
+                <img src="https://i.postimg.cc/KzRBWLHX/Landing-Page-ss.png" alt="project image" class="card-img-top">
+                <div class="card-body d-flex flex-column justify-content-around">
+                    <h4 class="card-title display-6">Card title</h4>
+                    <p class="card-text"><span class="badge bg-secondary">HTML</span>
+                        <span class="badge bg-secondary">CSS</span></p>
+                    <a href="https://codepen.io/c-raluca/pen/powzprO" target="_blank" class="btn btn-primary btn-lg mx-5 mt-3">See Code</a>
+                </div>
+            </div>
 
+        </div>
+    </div>
 
+    <div class="container-fluid" id="contact">
+        <a href="https://github.com/raluca-curt" id="profile-link" target="_blank">sds
+            <i></i>
+        </a>
+        <a href="https://codepen.io/c-raluca/" id="profile-link" target="_blank">sds
+            <i></i>
+        </a>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
